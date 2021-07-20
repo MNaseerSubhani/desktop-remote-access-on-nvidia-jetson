@@ -15,3 +15,7 @@ check local ip addr of NoMachine ``` sudo /etv/NX/nxserver --upnpmap```
 
 ``` ./ngrok tcp <local ip addr of NoMachine>:4000```
 
+
+## Change the resolution of jetson desktop to make the remote-access fast
+
+``` xrandr -s 1440x900```
