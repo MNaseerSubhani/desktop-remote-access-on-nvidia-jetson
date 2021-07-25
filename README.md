@@ -11,7 +11,7 @@ create a account in ngrok and connect with auth token ``` ./ngrok authtoken <you
 
 ``` cd ngrok ```
 
-check local ip addr of NoMachine ``` sudo /etv/NX/nxserver --upnpmap``` 
+check local ip addr of NoMachine ``` sudo /etc/NX/nxserver --upnpmap``` 
 
 ``` ./ngrok tcp <local ip addr of NoMachine>:4000```
 
